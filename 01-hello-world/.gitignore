@@ -1,0 +1,3 @@
+# Windows build files
+*.exe
+*.pdb
