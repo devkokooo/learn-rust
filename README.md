@@ -3,3 +3,40 @@
 Learning Rust from the Rust book - https://doc.rust-lang.org/stable/book
 
 This is done alongside rustlings - https://github.com/devkokooo/rustlings
+
+## Chapters
+
+- [ ] 1. Getting Started
+- [ ] **2. Programming a Guessing Game**
+- [ ] 3. Common Programming Concepts
+- [ ] 4. Understanding Ownership
+- [ ] 5. Using Structs to Structure Related Data
+- [ ] 6. Enums and Pattern Matching
+- [ ] 7. Managing Growing Projects with Packages, Crates, and Modules
+- [ ] 8. Common Collections
+- [ ] 9. Error Handling
+- [ ] 10. Generic Types, Traits, and Lifetimes
+- [ ] 11. Writing Automated Tests
+- [ ] **12. An I/O Project: Building a Command Line Program**
+  - [ ] 12.1 Accepting Command Line Arguments
+  - [ ] 12.2 Reading a File
+  - [ ] 12.3 Refactoring to Improve Modularity and Error Handling
+  - [ ] 12.4 Developing the Library's Functionality with Test Driven Development
+  - [ ] 12.5 Working with Environment Variables
+  - [ ] 12.6 Writing Error Messages to Standard Error Instead of Standard Output
+- [ ] 13. Functional Language Features: Iterators and Closures
+  - [ ] 13.1 Closures: Anonymous Functions that Capture Their Environment
+  - [ ] 13.2 Processing a Series of Items with Iterators
+  - [ ] 13.3 Improving our I/O Project
+  - [ ] 13.4 Comparing Performance: Loops vs. Iterators
+- [ ] 14. More about Cargo and Crates.io
+- [ ] 15. Smart Pointers
+- [ ] 16. Fearless Concurrency
+- [ ] 17. Fundamentals of Asynchronous Programming: Async, Await, Futures, and Streams
+- [ ] 18. Object Oriented Programming Features of Rust
+- [ ] 19. Patterns and Matching
+- [ ] 20. Advanced Features
+- [ ] **21. Final Project: Building a Multithreaded Web Server**
+  - [ ] 21.1 Building a Single-Threaded Web Server
+  - [ ] 21.2 Turning Our Single-Threaded Server into a Multithreaded Server
+  - [ ] 21.3 Graceful Shutdown and Cleanup
