@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "02-guessing-game/",
+  "03-programming-concepts/",
+  "04-ownership/",
+]
+resolver = "2"
