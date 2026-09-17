@@ -8,13 +8,17 @@ use std::collections::HashMap;
 
 fn fruit_basket() -> HashMap<String, u32> {
     // TODO: Declare the hash map.
-    // let mut basket =
+    let mut basket = HashMap::new();
 
     // Two bananas are already given for you :)
     basket.insert(String::from("banana"), 2);
 
     // TODO: Put more fruits in your basket.
-
+    basket.insert(String::from("pineapple"), 2);
+    basket.insert(String::from("mango"), 40);
+    basket.insert(String::from("grapes"), 100);
+    basket.insert(String::from("blueberries"), 420);
+    basket.insert(String::from("apples"), 10);
     basket
 }
 
