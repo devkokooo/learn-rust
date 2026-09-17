@@ -20,7 +20,7 @@ $ rustlings
 - [x] 4. Understanding Ownership
 - [x] 5. Using Structs to Structure Related Data
 - [x] 6. Enums and Pattern Matching
-- [ ] 7. Managing Growing Projects with Packages, Crates, and Modules
+- [x] 7. Managing Growing Projects with Packages, Crates, and Modules
 - [ ] 8. Common Collections
 - [ ] 9. Error Handling
 - [ ] 10. Generic Types, Traits, and Lifetimes

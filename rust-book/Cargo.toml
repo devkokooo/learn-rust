@@ -5,5 +5,7 @@ members = [
   "04-ownership/",
   "05-structs",
   "06-enums-and-pattern-matching",
+  "07-packages-crates-modules/backyard",
+  "07-packages-crates-modules/restaurant",
 ]
 resolver = "2"
