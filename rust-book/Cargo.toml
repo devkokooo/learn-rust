@@ -3,5 +3,6 @@ members = [
   "02-guessing-game/",
   "03-programming-concepts/",
   "04-ownership/",
+  "05-structs",
 ]
 resolver = "2"
