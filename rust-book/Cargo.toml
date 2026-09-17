@@ -4,5 +4,6 @@ members = [
   "03-programming-concepts/",
   "04-ownership/",
   "05-structs",
+  "06-enums-and-pattern-matching",
 ]
 resolver = "2"
