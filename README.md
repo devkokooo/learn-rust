@@ -23,7 +23,7 @@ $ rustlings
 - [x] 7. Managing Growing Projects with Packages, Crates, and Modules
 - [x] 8. Common Collections
 - [x] 9. Error Handling
-- [ ] 10. Generic Types, Traits, and Lifetimes
+- [x] 10. Generic Types, Traits, and Lifetimes
 - [ ] 11. Writing Automated Tests
 - [ ] **12. An I/O Project: Building a Command Line Program**
   - [ ] 12.1 Accepting Command Line Arguments
