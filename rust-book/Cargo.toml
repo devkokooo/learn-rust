@@ -10,5 +10,6 @@ members = [
   "08-collections",
   "09-error-handling",
   "10-generics-traits-lifetimes",
+  "11-testing/adder",
 ]
 resolver = "2"
