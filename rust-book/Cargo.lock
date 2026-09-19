@@ -21,6 +21,10 @@ name = "enums-and-pattern-matching"
 version = "0.1.0"
 
 [[package]]
+name = "error-handling"
+version = "0.1.0"
+
+[[package]]
 name = "getrandom"
 version = "0.2.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"

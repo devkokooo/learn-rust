@@ -7,6 +7,6 @@ members = [
   "06-enums-and-pattern-matching",
   "07-packages-crates-modules/backyard",
   "07-packages-crates-modules/restaurant",
-  "08-collections",
+  "08-collections", "09-error-handling",
 ]
 resolver = "2"
