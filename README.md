@@ -32,11 +32,11 @@ $ rustlings
   - [x] 12.4 Developing the Library's Functionality with Test Driven Development
   - [x] 12.5 Working with Environment Variables
   - [x] 12.6 Writing Error Messages to Standard Error Instead of Standard Output
-- [ ] 13. Functional Language Features: Iterators and Closures
-  - [ ] 13.1 Closures: Anonymous Functions that Capture Their Environment
-  - [ ] 13.2 Processing a Series of Items with Iterators
-  - [ ] 13.3 Improving our I/O Project
-  - [ ] 13.4 Comparing Performance: Loops vs. Iterators
+- [x] 13. Functional Language Features: Iterators and Closures
+  - [x] 13.1 Closures: Anonymous Functions that Capture Their Environment
+  - [x] 13.2 Processing a Series of Items with Iterators
+  - [x] 13.3 Improving our I/O Project
+  - [x] 13.4 Comparing Performance: Loops vs. Iterators
 - [ ] 14. More about Cargo and Crates.io
 - [ ] 15. Smart Pointers
 - [ ] 16. Fearless Concurrency
