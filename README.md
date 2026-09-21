@@ -24,14 +24,14 @@ $ rustlings
 - [x] 8. Common Collections
 - [x] 9. Error Handling
 - [x] 10. Generic Types, Traits, and Lifetimes
-- [ ] 11. Writing Automated Tests
-- [ ] **12. An I/O Project: Building a Command Line Program**
-  - [ ] 12.1 Accepting Command Line Arguments
-  - [ ] 12.2 Reading a File
-  - [ ] 12.3 Refactoring to Improve Modularity and Error Handling
-  - [ ] 12.4 Developing the Library's Functionality with Test Driven Development
-  - [ ] 12.5 Working with Environment Variables
-  - [ ] 12.6 Writing Error Messages to Standard Error Instead of Standard Output
+- [x] 11. Writing Automated Tests
+- [x] **12. An I/O Project: Building a Command Line Program**
+  - [x] 12.1 Accepting Command Line Arguments
+  - [x] 12.2 Reading a File
+  - [x] 12.3 Refactoring to Improve Modularity and Error Handling
+  - [x] 12.4 Developing the Library's Functionality with Test Driven Development
+  - [x] 12.5 Working with Environment Variables
+  - [x] 12.6 Writing Error Messages to Standard Error Instead of Standard Output
 - [ ] 13. Functional Language Features: Iterators and Closures
   - [ ] 13.1 Closures: Anonymous Functions that Capture Their Environment
   - [ ] 13.2 Processing a Series of Items with Iterators
