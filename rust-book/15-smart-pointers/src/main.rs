@@ -1,4 +1,5 @@
 use std::cell::RefCell;
+use std::rc::Weak;
 use std::{ops::Deref, rc::Rc};
 use std::mem::drop;
 
@@ -46,6 +47,13 @@ impl Drop for CustomSmartPointer {
     fn drop(&mut self) {
         println!("Dropping CustomSmartPointer with data `{}`!", self.data);
     }
+}
+
+#[derive(Debug)]
+struct Node {
+    value: i32,
+    parent: RefCell<Weak<Node>>,
+    children: RefCell<Vec<Rc<Node>>>,
 }
 
 fn main() {
@@ -134,6 +142,49 @@ fn main() {
 
     // THIS WILL OVERFLOW THE STACK
     // println!("a next item = {:?}", a.tail());
+
+    // Weak<T> to prevent reference cycles
+    // weak references don't need count to be 0 for Rc<T> to be cleaned up
+    let leaf = Rc::new(Node {
+        value: 4,
+        parent: RefCell::new(Weak::new()),
+        children: RefCell::new(vec![]),
+    });
+
+    println!(
+        "leaf strong = {}, weak = {}",
+        Rc::strong_count(&leaf),
+        Rc::weak_count(&leaf),
+    );
+
+    {
+        let branch = Rc::new(Node {
+            value: 5,
+            parent: RefCell::new(Weak::new()),
+            children: RefCell::new(vec![Rc::clone(&leaf)]),
+        });
+
+        *leaf.parent.borrow_mut() = Rc::downgrade(&branch);
+
+        println!(
+            "branch strong = {}, weak = {}",
+            Rc::strong_count(&branch),
+            Rc::weak_count(&branch),
+        );
+
+        println!(
+            "leaf strong = {}, weak = {}",
+            Rc::strong_count(&leaf),
+            Rc::weak_count(&leaf),
+        );
+    }
+
+    println!("leaf parent = {:?}", leaf.parent.borrow().upgrade());
+    println!(
+        "leaf strong = {}, weak = {}",
+        Rc::strong_count(&leaf),
+        Rc::weak_count(&leaf),
+    );
 }
 
 fn hello(name: &str) {
