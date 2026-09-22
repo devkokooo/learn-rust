@@ -37,7 +37,7 @@ $ rustlings
   - [x] 13.2 Processing a Series of Items with Iterators
   - [x] 13.3 Improving our I/O Project
   - [x] 13.4 Comparing Performance: Loops vs. Iterators
-- [ ] 14. More about Cargo and Crates.io
+- [x] 14. More about Cargo and Crates.io
 - [ ] 15. Smart Pointers
 - [ ] 16. Fearless Concurrency
 - [ ] 17. Fundamentals of Asynchronous Programming: Async, Await, Futures, and Streams
