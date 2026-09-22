@@ -1,3 +1,17 @@
+//! # Minigrep
+//! This is just a comment.
+//! 
+//! I'm learning Rust from the Rust book.
+//! 
+//! They forced me to build this exercise.
+
+/// Search contents by query string
+/// 
+/// # Examples
+/// 
+/// ```
+/// let mut iter = search("boat", "my boat is sinking\nmy brain is thinking");
+/// ```
 pub fn search<'a>(query: &str, contents: &'a str) -> impl Iterator<Item = &'a str> {
     contents
         .lines()
