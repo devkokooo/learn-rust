@@ -12,6 +12,9 @@ members = [
   "10-generics-traits-lifetimes",
   "11-testing/adder",
   "12-project-minigrep",
-  "13-closures-iterators", "15-smart-pointers", "16-fearless-concurrency",
+  "13-closures-iterators",
+  "15-smart-pointers",
+  "16-fearless-concurrency",
+  "17-async"
 ]
 resolver = "2"
