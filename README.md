@@ -40,10 +40,15 @@ $ rustlings
 - [x] 14. More about Cargo and Crates.io
 - [x] 15. Smart Pointers
 - [x] 16. Fearless Concurrency
-- [ ] 17. Fundamentals of Asynchronous Programming: Async, Await, Futures, and Streams
-- [ ] 18. Object Oriented Programming Features of Rust
+- [x] 17. Fundamentals of Asynchronous Programming: Async, Await, Futures, and Streams
+- [x] 18. Object Oriented Programming Features of Rust
 - [ ] 19. Patterns and Matching
 - [ ] 20. Advanced Features
+  - [ ] 20.1 Unsafe Rust
+  - [ ] 20.2 Advanced Traits
+  - [ ] 20.3 Advanced Types
+  - [ ] 20.4 Advanced Functions and Closures
+  - [ ] 20.5 Macros
 - [ ] **21. Final Project: Building a Multithreaded Web Server**
   - [ ] 21.1 Building a Single-Threaded Web Server
   - [ ] 21.2 Turning Our Single-Threaded Server into a Multithreaded Server

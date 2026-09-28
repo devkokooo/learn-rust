@@ -15,6 +15,7 @@ members = [
   "13-closures-iterators",
   "15-smart-pointers",
   "16-fearless-concurrency",
-  "17-async"
+  "17-async",
+  "18-oop"
 ]
 resolver = "2"
