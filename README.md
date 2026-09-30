@@ -56,6 +56,14 @@ $ rustlings
 
 ## Other Useful Resources
 
+- **Load Balancer** (good for after web server) - https://web.stanford.edu/class/cs110l/assignments/project-2-2022/
+- **QOI image compression** - https://qoiformat.org/
+- **QOA audio compression** - https://qoaformat.org/
+- **Debugger** - https://web.stanford.edu/class/cs110l/assignments/project-1/
+- **Redis client and server** tutorial (Tokio) - https://tokio.rs/tokio/tutorial/setup
+- **Rust OS** tutorial - https://rust-os-tutorial.netlify.app/1/
+- **Chip-8 Emulator** - https://tobiasvl.github.io/blog/write-a-chip-8-emulator/
+
 The Rustonomicon (dark arts of unsafe Rust) - https://doc.rust-lang.org/stable/nomicon/intro.html
 
 Idiomatic Rust - https://github.com/mre/idiomatic-rust
