@@ -42,7 +42,7 @@ $ rustlings
 - [x] 16. Fearless Concurrency
 - [x] 17. Fundamentals of Asynchronous Programming: Async, Await, Futures, and Streams
 - [x] 18. Object Oriented Programming Features of Rust
-- [ ] 19. Patterns and Matching
+- [x] 19. Patterns and Matching
 - [ ] 20. Advanced Features
   - [ ] 20.1 Unsafe Rust
   - [ ] 20.2 Advanced Traits

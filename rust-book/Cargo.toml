@@ -16,6 +16,7 @@ members = [
   "15-smart-pointers",
   "16-fearless-concurrency",
   "17-async",
-  "18-oop"
+  "18-oop",
+  "19-pattern-matching",
 ]
 resolver = "2"
