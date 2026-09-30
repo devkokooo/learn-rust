@@ -53,3 +53,9 @@ $ rustlings
   - [ ] 21.1 Building a Single-Threaded Web Server
   - [ ] 21.2 Turning Our Single-Threaded Server into a Multithreaded Server
   - [ ] 21.3 Graceful Shutdown and Cleanup
+
+## Other Useful Resources
+
+The Rustonomicon (dark arts of unsafe Rust) - https://doc.rust-lang.org/stable/nomicon/intro.html
+
+Idiomatic Rust - https://github.com/mre/idiomatic-rust
