@@ -21,5 +21,6 @@ members = [
   "20-advanced-features",
   "20-advanced-features/hello_macro",
   "20-advanced-features/hello_macro_derive",
+  "21-web-server",
 ]
 resolver = "2"

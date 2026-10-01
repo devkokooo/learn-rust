@@ -49,10 +49,10 @@ $ rustlings
   - [x] 20.3 Advanced Types
   - [x] 20.4 Advanced Functions and Closures
   - [x] 20.5 Macros
-- [ ] **21. Final Project: Building a Multithreaded Web Server**
-  - [ ] 21.1 Building a Single-Threaded Web Server
-  - [ ] 21.2 Turning Our Single-Threaded Server into a Multithreaded Server
-  - [ ] 21.3 Graceful Shutdown and Cleanup
+- [x] **21. Final Project: Building a Multithreaded Web Server**
+  - [x] 21.1 Building a Single-Threaded Web Server
+  - [x] 21.2 Turning Our Single-Threaded Server into a Multithreaded Server
+  - [x] 21.3 Graceful Shutdown and Cleanup
 
 ## Other Useful Resources
 
