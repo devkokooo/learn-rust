@@ -7,6 +7,14 @@ name = "adder"
 version = "0.1.0"
 
 [[package]]
+name = "advanced-features"
+version = "0.1.0"
+dependencies = [
+ "hello_macro",
+ "hello_macro_derive",
+]
+
+[[package]]
 name = "ahash"
 version = "0.8.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -373,6 +381,18 @@ name = "guessing-game"
 version = "0.1.0"
 dependencies = [
  "rand 0.8.8",
+]
+
+[[package]]
+name = "hello_macro"
+version = "0.1.0"
+
+[[package]]
+name = "hello_macro_derive"
+version = "0.1.0"
+dependencies = [
+ "quote",
+ "syn 2.0.119",
 ]
 
 [[package]]

@@ -18,5 +18,8 @@ members = [
   "17-async",
   "18-oop",
   "19-pattern-matching",
+  "20-advanced-features",
+  "20-advanced-features/hello_macro",
+  "20-advanced-features/hello_macro_derive",
 ]
 resolver = "2"
