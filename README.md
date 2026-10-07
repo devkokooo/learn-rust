@@ -56,9 +56,10 @@ $ rustlings
 
 ## Other Useful Resources
 
-- **Load Balancer** (good for after web server) - https://web.stanford.edu/class/cs110l/assignments/project-2-2022/
 - **QOI image compression** - https://qoiformat.org/
 - **QOA audio compression** - https://qoaformat.org/
+- **Learn WGPU** - https://sotrh.github.io/learn-wgpu/
+- **Load Balancer** (good for after web server) - https://web.stanford.edu/class/cs110l/assignments/project-2-2022/
 - **Debugger** - https://web.stanford.edu/class/cs110l/assignments/project-1/
 - **Redis client and server** tutorial (Tokio) - https://tokio.rs/tokio/tutorial/setup
 - **Rust OS** tutorial - https://rust-os-tutorial.netlify.app/1/
