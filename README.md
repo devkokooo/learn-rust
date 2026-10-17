@@ -4,6 +4,8 @@ Learning Rust from the Rust book - https://doc.rust-lang.org/stable/book
 
 This is done alongside rustlings - https://rustlings.rust-lang.org/
 
+> **Note:** if you want to use this repo to follow along the exercises, feel free to clone from the `CLEAN-SLATE` branch.
+
 ## Navigation
 
 To start rustlings:
